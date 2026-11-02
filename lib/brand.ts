@@ -94,17 +94,18 @@ export const BRAND: BrandConfig = {
 
   logos: {
     team: {
-      src: "/babby-rodriguez.svg",
-      alt: "Babby Rodriguez — RE/MAX, bienes raíces en la Rive-Sud de Montreal",
-      width: 800,
-      height: 228,
+      // Logo réel de Babby (icône maison/B + nom + sous-titre), fourni par le client.
+      src: "/babby-rodriguez-logo.png",
+      alt: "Babby Rodriguez — Corredor inmobiliario residencial y comercial",
+      width: 795,
+      height: 291,
     },
     banner: {
-      // Logo générique RE/MAX, en haut à droite (pastille blanche).
-      src: "/remax-logo.jpg",
-      alt: "RE/MAX — Agencia inmobiliaria",
-      width: 288,
-      height: 78,
+      // Logo réel de l'agence RE/MAX Platine, fourni par le client.
+      src: "/remax-platine-logo.png",
+      alt: "RE/MAX Platine — Agencia inmobiliaria",
+      width: 1000,
+      height: 480,
     },
   },
 
@@ -112,7 +113,7 @@ export const BRAND: BrandConfig = {
   brokers: [
     {
       name: "Babby Rodriguez",
-      title: "RE/MAX · Bienes raíces",
+      title: "Corredor inmobiliario residencial y comercial · RE/MAX Platine",
       photo: "/broker-1.svg",
       objectPosition: "50% 18%",
       phoneDisplay: "",

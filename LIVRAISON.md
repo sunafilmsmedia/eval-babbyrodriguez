@@ -1,7 +1,10 @@
 # Babby Rodriguez — Évaluation « bon moment pour vendre ? » (ESPAGNOL)
 
-App one-page de qualification de leads pour Babby Rodriguez, agente immobilière RE/MAX
-(Rive-Sud de Montréal). Clonée du template `eval-veroniqueguillemette`.
+App one-page de qualification de leads pour Babby Rodriguez, courtier immobilier
+RE/MAX Platine (Rive-Sud de Montréal). Clonée du template `eval-veroniqueguillemette`.
+Logos réels fournis par le client (`public/babby-rodriguez-logo.png`,
+`public/remax-platine-logo.png`) — le genre masculin (« courtier ») vient du logo
+du client lui-même, d'où son usage dans les textes espagnols (« corredor »).
 Next.js 15 (App Router, TS) · Tailwind v4 · Framer Motion · Leaflet · déploiement Vercel.
 Thème **noir / gris #333333 / blanc**, mobile-first, **tout le contenu visiteur est en
 espagnol** (vouvoiement formel via « usted »).

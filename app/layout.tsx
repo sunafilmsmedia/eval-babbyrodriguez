@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://exemple.vercel.app"),
   openGraph: {
     title: "¿Es el momento adecuado para vender su propiedad?",
-    description: `Evaluación personalizada — ${BRAND.teamName}, RE/MAX, servicios inmobiliarios en ${BRAND.region}.`,
+    description: `Evaluación personalizada — ${BRAND.teamName}, RE/MAX Platine, servicios inmobiliarios en ${BRAND.region}.`,
     locale: "es_LA",
   },
 };
