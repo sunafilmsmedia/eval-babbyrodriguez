@@ -94,14 +94,18 @@ export const BRAND: BrandConfig = {
 
   logos: {
     team: {
-      // Logo réel de Babby (icône maison/B + nom + sous-titre), fourni par le client.
+      // Logo réel de Babby (icône maison/B + nom + sous-titre), fourni par le
+      // client, repassé en blanc sur fond transparent pour poser directement
+      // sur le hero sombre (sans pastille).
       src: "/babby-rodriguez-logo.png",
       alt: "Babby Rodriguez — Corredor inmobiliario residencial y comercial",
       width: 795,
       height: 291,
     },
     banner: {
-      // Logo réel de l'agence RE/MAX Platine, fourni par le client.
+      // Logo réel de l'agence RE/MAX Platine, fourni par le client. Texte
+      // repassé en blanc, icône du ballon RE/MAX conservée en couleur,
+      // fond transparent.
       src: "/remax-platine-logo.png",
       alt: "RE/MAX Platine — Agencia inmobiliaria",
       width: 1000,
